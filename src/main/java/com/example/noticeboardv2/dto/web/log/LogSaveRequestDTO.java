@@ -1,9 +1,9 @@
 package com.example.noticeboardv2.dto.web.log;
 
+import com.example.noticeboardv2.domain.log.Log;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.extern.java.Log;
 
 @Getter
 @NoArgsConstructor
@@ -28,5 +28,4 @@ public class LogSaveRequestDTO {
                 .ipAddress(ipAddress)
                 .build();
     }
-
 }
