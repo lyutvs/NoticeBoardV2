@@ -2,13 +2,6 @@ package com.example.noticeboardv2.toy;
 
 public class Car {
 
-    //    private String id, name;
-//
-//    public Car(String id, String name) {
-//        this.id = id;
-//        this.name = name;
-//    }
-
     // final 키워드를 써서 생성자를 통한 입력을 강요함
     private final String id, name;
 
