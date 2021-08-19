@@ -1,5 +1,6 @@
 package com.example.noticeboardv2.config;
 
+import com.example.noticeboardv2.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
@@ -9,7 +10,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Configuration
-public class WebCofig implements WebMvcConfigurer {
+public class WebConfig implements WebMvcConfigurer {
     private final LoginUserArgumentResolver loginUserArgumentResolver;
 
     @Override
